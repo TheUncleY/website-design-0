@@ -1,0 +1,35 @@
+#fruit,#vegetables{
+    width: 300px;
+    height: 300px;
+
+}
+#fruit{
+    background-color: lightgoldenrodyellow;
+}
+#vegetables{
+    margin-left: 50px;
+background-color: darkseagreen;
+}
+.all{
+margin: auto;
+    width: 660px;
+    height: 300px;
+    clear: both;
+    margin-top: 50px;
+}
+#fruit,#vegetables,.all{
+    border: 5px solid grey;
+    float: left;
+}
+.game{
+    width: 680px;
+    margin: auto;
+}
+.all img{
+    border: 1px solid #eeeeee;
+    margin: 10px 2.1%;
+}
+#fruit img,#vegetables img{
+    border: 1px solid #eeeeee;
+    margin: 10px;
+}
